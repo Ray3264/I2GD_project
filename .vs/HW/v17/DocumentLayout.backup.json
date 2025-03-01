@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|c:\\users\\msi\\desktop\\gd\\i2gd\\hw\\assets\\scripts\\fancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\consolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\consolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\devicetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\dooropendevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dooropendevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\deviceoperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deviceoperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\horizontalrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\horizontalrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\projectileshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectileshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\rayshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rayshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\wanderingai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wanderingai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\reactivetarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reactivetarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\fpsinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fpsinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\spheremovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spheremovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\mouselooky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouselooky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\assets\\scripts\\mouselookx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouselookx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\ConsoleController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ConsoleController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\ConsoleController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ConsoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:16:33.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FanController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\FanController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FanController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\FanController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FanController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:14:39.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeviceTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\DeviceTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeviceTrigger.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\DeviceTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeviceTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T18:11:57.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoorOpenDevice.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\DoorOpenDevice.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorOpenDevice.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\DoorOpenDevice.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorOpenDevice.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:57:16.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceOperator.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\DeviceOperator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeviceOperator.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\DeviceOperator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeviceOperator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:49:39.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:55:06.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectile.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:52:28.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RayShooter.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\RayShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RayShooter.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\RayShooter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RayShooter.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T18:07:33.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectileShooter.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\ProjectileShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileShooter.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\ProjectileShooter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProjectileShooter.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:44:41.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Fireball.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\Fireball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fireball.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\Fireball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fireball.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:20:49.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WanderingAI.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\WanderingAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WanderingAI.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\WanderingAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WanderingAI.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:59:33.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SceneController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\SceneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\SceneController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:05:38.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReactiveTarget.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\ReactiveTarget.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ReactiveTarget.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\ReactiveTarget.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ReactiveTarget.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T18:11:39.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerCharacter.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\PlayerCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCharacter.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\PlayerCharacter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:27:31.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SphereMovement.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\SphereMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SphereMovement.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\SphereMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SphereMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:30:15.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HorizontalRotation.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\HorizontalRotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HorizontalRotation.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\HorizontalRotation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HorizontalRotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T17:08:13.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FPSInput.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\FPSInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FPSInput.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\FPSInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FPSInput.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:01:54.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MouseLookY.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\MouseLookY.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseLookY.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\MouseLookY.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MouseLookY.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T14:54:11.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MouseLookX.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\MouseLookX.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseLookX.cs",
+              "ToolTip": "C:\\Users\\MSI\\Desktop\\GD\\I2GD\\HW\\Assets\\Scripts\\MouseLookX.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MouseLookX.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T14:51:03.792Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
