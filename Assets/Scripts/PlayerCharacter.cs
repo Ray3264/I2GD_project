@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerCharacter : MonoBehaviour
 {
-    private int health;
+    private static int health;
     void Start()
     {
         health = 5;
@@ -16,4 +16,5 @@ public class PlayerCharacter : MonoBehaviour
             Debug.Log($"Health: {health}");
         }
     }
+    public static int getHealth() { return health; }
 }
