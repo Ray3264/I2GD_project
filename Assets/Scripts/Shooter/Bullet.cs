@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter(Collision other)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            print("hit " + collision.gameObject.name + " !");
-            Destroy(gameObject);
+            other.gameObject.GetComponent<Enemy>().updateHealth(-100);
+            // print("hit " + other.gameObject.name + " !");
+            // Destroy(gameObject);
         }
     }
 }

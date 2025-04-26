@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1422881603030772811, guid: 04b955f42000fe64eb1536b5fe183dd3, type: 3}
   bulletSpawn: {fileID: 1571958681}
-  bulletVelocity: 30
+  bulletVelocity: 100
   bulletLifeTime: 3
 --- !u!4 &850305570 stripped
 Transform:
