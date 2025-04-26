@@ -1003,3 +1003,1173 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/PSXShaderManager.cs: e9cc62fbe4ed565505544f623360d8bc -> 
   custom:scripting/monoscript/fileName/SpookyOrbFloat.cs: daba40eeca491e306916566e5212d791 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: ebf57ba0bb6b7f9d6a33a4b7a730f9f9 -> cb4cd53d086179f99ccdd621e410b14c
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.469 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.934 seconds
+Domain Reload Profiling: 1400ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (934ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 7.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.9 MB). Loaded Objects now: 3726.
+Memory consumption went from 214.3 MB to 213.4 MB.
+Total: 6.595300 ms (FindLiveObjects: 0.659200 ms CreateObjectMapping: 0.680700 ms MarkObjects: 4.058000 ms  DeleteObjects: 1.196000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PSXExample_CameraMovement.cs: 7b9b56c73fda37c9d345c1d3160cd3fa -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PSXPostProcessEffect.cs: 0a9386220eeae775f0b38699e2995348 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PSXShaderManager.cs: e9cc62fbe4ed565505544f623360d8bc -> 
+  custom:scripting/monoscript/fileName/SpookyOrbFloat.cs: daba40eeca491e306916566e5212d791 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ebf57ba0bb6b7f9d6a33a4b7a730f9f9 -> cb4cd53d086179f99ccdd621e410b14c
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.490 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.986 seconds
+Domain Reload Profiling: 1474ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (986ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3184 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.3 MB). Loaded Objects now: 3730.
+Memory consumption went from 216.4 MB to 215.1 MB.
+Total: 6.128700 ms (FindLiveObjects: 0.337700 ms CreateObjectMapping: 0.274900 ms MarkObjects: 4.145700 ms  DeleteObjects: 1.368900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PSXExample_CameraMovement.cs: 7b9b56c73fda37c9d345c1d3160cd3fa -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PSXPostProcessEffect.cs: 0a9386220eeae775f0b38699e2995348 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CharacterRandomizer.cs: e085957bf185146eda98092137c48aac -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PSXShaderManager.cs: e9cc62fbe4ed565505544f623360d8bc -> 
+  custom:scripting/monoscript/fileName/SpookyOrbFloat.cs: daba40eeca491e306916566e5212d791 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d220e0ab742b34ef8e77d7e3ea790bbc -> cb4cd53d086179f99ccdd621e410b14c
+========================================================================
+Received Import Request.
+  Time since last request: 716.836287 seconds.
+  path: Assets/PolygonFantasyHeroCharacters
+  artifactKey: Guid(e965c89e2c423224b8447dad6a25345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters using Guid(e965c89e2c423224b8447dad6a25345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2528a5d602c7895de4a07c634dbb5eb1') in 0.008010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.324182 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs
+  artifactKey: Guid(db89f39285e828541853a44ec1fe7996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs using Guid(db89f39285e828541853a44ec1fe7996) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9a6c67255f0927a147650dc137559d5a') in 0.000630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079955 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/ModularCharacters.prefab
+  artifactKey: Guid(ddc4cd0622acc4847817cc15268b4a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/ModularCharacters.prefab using Guid(ddc4cd0622acc4847817cc15268b4a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ca205f236104559c4ac7ab57cabd65c5') in 0.560708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 19.944634 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets
+  artifactKey: Guid(191b847b6946a114dab1619f410dd59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets using Guid(191b847b6946a114dab1619f410dd59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9899f62a53cb7fe9f8e7678d165c8e61') in 0.015319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.139243 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_1.prefab
+  artifactKey: Guid(071b4da7cfff18347a371c677585b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_1.prefab using Guid(071b4da7cfff18347a371c677585b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a45b6b20737d4079b8e4ee6c840e4c03') in 0.200554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_23.prefab
+  artifactKey: Guid(bcdf5c806f4211d4f9d3698be5a0ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_23.prefab using Guid(bcdf5c806f4211d4f9d3698be5a0ca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd20b97e0ce43079360d41b3ea489bbe7') in 0.180728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_51.prefab
+  artifactKey: Guid(3ca80bb38c4d28149802cf273f2ad3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_51.prefab using Guid(3ca80bb38c4d28149802cf273f2ad3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e875734bf7291579d321bf3f3092d28') in 0.174753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_46.prefab
+  artifactKey: Guid(f85fefe20d5651f408bd1c22c346ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_46.prefab using Guid(f85fefe20d5651f408bd1c22c346ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '079266b4e37d59890458d12d97e79f77') in 0.170980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_29.prefab
+  artifactKey: Guid(2cbb8f2eeaed217428c6bf4dadb9799b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_29.prefab using Guid(2cbb8f2eeaed217428c6bf4dadb9799b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27a20fc5acc1614f18f0917a3ff18282') in 0.177954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_19.prefab
+  artifactKey: Guid(34afac1353c69ea4781a55e29a16ce13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_19.prefab using Guid(34afac1353c69ea4781a55e29a16ce13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efe5e60f650b3c7e40bd406148f03e41') in 0.164832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_34.prefab
+  artifactKey: Guid(f8d073d0f71331843af650fef6755319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_34.prefab using Guid(f8d073d0f71331843af650fef6755319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b5b8dcde0bb033d86973d52c2a7aa6e') in 0.199492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_45.prefab
+  artifactKey: Guid(0e77d50339e89194abd5cabc34a08c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_45.prefab using Guid(0e77d50339e89194abd5cabc34a08c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9672f3440f8c51f2890c438d6410a57c') in 0.168190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_5.prefab
+  artifactKey: Guid(68813e3f18422044094750f43ff6381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_5.prefab using Guid(68813e3f18422044094750f43ff6381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6bab120e1429464901cdd75a45e3015') in 0.170582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_3.prefab
+  artifactKey: Guid(32eb347f03c37014080d0c1fba9fae61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_3.prefab using Guid(32eb347f03c37014080d0c1fba9fae61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4bbd2a04f78ef7111adbca23e2048a29') in 0.180447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_36.prefab
+  artifactKey: Guid(1d3c25033160ed74d9114e7428ef7f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_36.prefab using Guid(1d3c25033160ed74d9114e7428ef7f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e914c1303da9662dfc33b774e47d46a2') in 0.160028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_35.prefab
+  artifactKey: Guid(2294f22d00a6b3840b6051548fe29ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_35.prefab using Guid(2294f22d00a6b3840b6051548fe29ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5bd90329fa1d795e845125ac7901bff8') in 0.185280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_22.prefab
+  artifactKey: Guid(bbdcd498f0476c244a3edb36977255ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_22.prefab using Guid(bbdcd498f0476c244a3edb36977255ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d7bc1e06225ce86605177e89a5f0361') in 0.164914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_52.prefab
+  artifactKey: Guid(376f10543468d08499265dee2684c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_52.prefab using Guid(376f10543468d08499265dee2684c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0a7797edf531130d135c79b49667e09') in 0.174579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_21.prefab
+  artifactKey: Guid(fdb7429b76ccf5f4782fe32c5ef234ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_21.prefab using Guid(fdb7429b76ccf5f4782fe32c5ef234ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e0c18fec020a91636a99557775b5c67') in 0.165181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_16.prefab
+  artifactKey: Guid(4431c404176926a40971a671a4aa862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_16.prefab using Guid(4431c404176926a40971a671a4aa862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '753cbd6308048a561351875b74356fdf') in 0.163560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_50.prefab
+  artifactKey: Guid(235a38fc44e705a47a80d028b1777423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_50.prefab using Guid(235a38fc44e705a47a80d028b1777423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '763748257273ded81d9196d9c2a3201c') in 0.171925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_25.prefab
+  artifactKey: Guid(75d8ba510369db647abf64b18ca34490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_25.prefab using Guid(75d8ba510369db647abf64b18ca34490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00680e8e08bd543f5df673f3d5420140') in 0.156144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_40.prefab
+  artifactKey: Guid(bbf9d2d73db526c4aa3f66acf676c574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_40.prefab using Guid(bbf9d2d73db526c4aa3f66acf676c574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f23e1ecc081f9ac76cf75e1c53636d1a') in 0.200107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_7.prefab
+  artifactKey: Guid(e4cd5d747323c1549a4f33f5d1b43648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_7.prefab using Guid(e4cd5d747323c1549a4f33f5d1b43648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ce9a28357aaf8a892b5683ff1673fe5') in 0.256814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_53.prefab
+  artifactKey: Guid(a13a226b3de5990499d4ba5b28e9f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_53.prefab using Guid(a13a226b3de5990499d4ba5b28e9f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8cd347b08fff0cf8323f89839cae4efc') in 0.300083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_37.prefab
+  artifactKey: Guid(a377ac8a1cb35db4d800d254ce63a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_37.prefab using Guid(a377ac8a1cb35db4d800d254ce63a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0addeea437465aff892a0589fb2056b6') in 0.246507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_39.prefab
+  artifactKey: Guid(770699acb01423744ae4e6d2bbaf2eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_39.prefab using Guid(770699acb01423744ae4e6d2bbaf2eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd871c7347db3883a5b6739c0976ba280') in 0.277706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_8.prefab
+  artifactKey: Guid(904af8c9d76935743964668f843a1f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_8.prefab using Guid(904af8c9d76935743964668f843a1f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e53c6c96210e931d39be6689e0c620c2') in 0.252530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_33.prefab
+  artifactKey: Guid(906cc1997e65aad4fb8ea55a2ca52b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_33.prefab using Guid(906cc1997e65aad4fb8ea55a2ca52b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '72034e5636a447816fc2f4d07f561706') in 0.212259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_38.prefab
+  artifactKey: Guid(e7bac781aeb5b894c9ae4ff210789d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_38.prefab using Guid(e7bac781aeb5b894c9ae4ff210789d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60684e3735f30bf774a3c7f03c5d324c') in 0.183387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 28.504075 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_55.prefab
+  artifactKey: Guid(78d4219f4babd114fb21eb44de574e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_55.prefab using Guid(78d4219f4babd114fb21eb44de574e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2e0fd46442628c846f6c0d6f0cfe207') in 0.182327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_75.prefab
+  artifactKey: Guid(59e52ca60d8aebe4ebc5d94c017d05e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_75.prefab using Guid(59e52ca60d8aebe4ebc5d94c017d05e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70f2efc082d2e4f0381cea7e7a2e45f3') in 0.182141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_61.prefab
+  artifactKey: Guid(2cb1fd74719e8374a89858491d382396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_61.prefab using Guid(2cb1fd74719e8374a89858491d382396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48b76528f7eaf9abb539eb59ae44f66b') in 0.193728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_65.prefab
+  artifactKey: Guid(4011d0902558bad4383ad26aa9a9d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_65.prefab using Guid(4011d0902558bad4383ad26aa9a9d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a0875b86fb4764d3b4b619c5411198f') in 0.193746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_60.prefab
+  artifactKey: Guid(dc69c66323ec4c34fb64fd5aaf65916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_60.prefab using Guid(dc69c66323ec4c34fb64fd5aaf65916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c928e7c271f8941098be6be4018bfb1') in 0.165227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_76.prefab
+  artifactKey: Guid(4f649c0186932c84db9f3588ed96c501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_76.prefab using Guid(4f649c0186932c84db9f3588ed96c501) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5687339a8fb75dba3c9a2e1c0e68e00e') in 0.175340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_72.prefab
+  artifactKey: Guid(4eff100d100b40e42b02fdca703f754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_72.prefab using Guid(4eff100d100b40e42b02fdca703f754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81a82a6a52060057efb2b82c68fcf3c8') in 0.176147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_71.prefab
+  artifactKey: Guid(44fb279cdb037e54186b6fd6789d06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_71.prefab using Guid(44fb279cdb037e54186b6fd6789d06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ff8141227d8ab816837aee71596e838') in 0.182045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_92.prefab
+  artifactKey: Guid(bf21fe3db8bda31428e4cc140cb7a9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_92.prefab using Guid(bf21fe3db8bda31428e4cc140cb7a9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c74ccb664edf856fed9abfeef646e8f1') in 0.161646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_84.prefab
+  artifactKey: Guid(b8d29ef5316a5044f8b93f30a5b311c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_84.prefab using Guid(b8d29ef5316a5044f8b93f30a5b311c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af596f7e57b9933d4a37990ef05c18c0') in 0.169776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_79.prefab
+  artifactKey: Guid(652ec71a524d39e4db661153d0e10a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_79.prefab using Guid(652ec71a524d39e4db661153d0e10a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bc8fbf941a8372abe9b0e5eeade10b39') in 0.158673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_87.prefab
+  artifactKey: Guid(5cc03ef4a368b8045a2f0e30c11a4906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Characters_Presets/Chr_FantasyHero_Preset_87.prefab using Guid(5cc03ef4a368b8045a2f0e30c11a4906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '158415d490e765bd9d1cfe8799b718e7') in 0.174198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3131
+========================================================================
+Received Import Request.
+  Time since last request: 1048.801633 seconds.
+  path: Assets/Trancparent.mat
+  artifactKey: Guid(12128d25e376d9842a001807899823d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trancparent.mat using Guid(12128d25e376d9842a001807899823d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a199c6c14d85289e61eb0a0c4c53d459') in 0.146691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 472.137344 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts
+  artifactKey: Guid(77fc757ea47de504dbe5c4071cc3f847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/ModularCharacter_StaticParts using Guid(77fc757ea47de504dbe5c4071cc3f847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '083aeba87c0c25b1b40290a0e5304166') in 0.002387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.497807 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons
+  artifactKey: Guid(1fd3e44978cc1f14888b41a5dd439724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons using Guid(1fd3e44978cc1f14888b41a5dd439724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c7ba332ebe44a28edb925923de8fafd') in 0.001574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062823 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Axe_01.fbx
+  artifactKey: Guid(1c6172cca7780d549a35ed79ce6d37c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Axe_01.fbx using Guid(1c6172cca7780d549a35ed79ce6d37c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7b05e42ee6436f77350a56640ac191f') in 0.038368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_16.fbx
+  artifactKey: Guid(8a163e5f86f057b43a4991f52d3e3862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_16.fbx using Guid(8a163e5f86f057b43a4991f52d3e3862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0775b813fb494467e94130101de7e42e') in 0.014936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Large_01.fbx
+  artifactKey: Guid(8c62a730971cc934c88a622c7237487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Large_01.fbx using Guid(8c62a730971cc934c88a622c7237487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac04685bd38d5dae55acc3f83a28d1ad') in 0.011782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_10.fbx
+  artifactKey: Guid(a139d8f20323a3d48904152aab5e9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_10.fbx using Guid(a139d8f20323a3d48904152aab5e9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba07babdc28ba0b0ba2d6615726399af') in 0.011901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_02.fbx
+  artifactKey: Guid(b2da90d36b9cfaf4ea2976943fbb0b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_02.fbx using Guid(b2da90d36b9cfaf4ea2976943fbb0b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e8b59db6abaf8096de01a8504a1ee9f') in 0.013260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Staff_02.fbx
+  artifactKey: Guid(28c16d6a2f9d0d149a647997134995de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Staff_02.fbx using Guid(28c16d6a2f9d0d149a647997134995de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c140a6dff42cf6e2d243e867fcd45db') in 0.013314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Small_01.fbx
+  artifactKey: Guid(0456482893525f941abe21ac94126e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Small_01.fbx using Guid(0456482893525f941abe21ac94126e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2da42522e071238710ff32660fb7c939') in 0.010330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_05.fbx
+  artifactKey: Guid(e2d26283fff242749b866ddc014fbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_05.fbx using Guid(e2d26283fff242749b866ddc014fbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1357f125b60d9cb0f5bca30950922692') in 0.012053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_09.fbx
+  artifactKey: Guid(da4cb2b4bbd41c24d85d730533540c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_09.fbx using Guid(da4cb2b4bbd41c24d85d730533540c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc0d74184a98633ae05c5c7a30eea210') in 0.014485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_01.fbx
+  artifactKey: Guid(f78168b408c51b0439fdf49dbeec846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_01.fbx using Guid(f78168b408c51b0439fdf49dbeec846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e3a80897aa5d5315c8f945982cbc9d4') in 0.011388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Joust_03.fbx
+  artifactKey: Guid(e7324e78ad6034c4681941eda80b8795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Joust_03.fbx using Guid(e7324e78ad6034c4681941eda80b8795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b45a14905dd238d284856272949a5bb1') in 0.010815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_03.fbx
+  artifactKey: Guid(becf45e475146214d863502b3e218468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_03.fbx using Guid(becf45e475146214d863502b3e218468) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b13e20a611ef845c003603aa8ddbe9af') in 0.011610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_06.fbx
+  artifactKey: Guid(2571356ed815568439a6863aced7d1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_06.fbx using Guid(2571356ed815568439a6863aced7d1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b11dd2773a09ab1485cb8a5a40fccb4') in 0.010367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_04.fbx
+  artifactKey: Guid(5d98687631cdbcb40bcf81e874717ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_04.fbx using Guid(5d98687631cdbcb40bcf81e874717ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '367bc93657270f4269004e5d21782c1b') in 0.011660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Rapier_Cover_01.fbx
+  artifactKey: Guid(0e8dc1afe3496204ea36bf15291cc425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Rapier_Cover_01.fbx using Guid(0e8dc1afe3496204ea36bf15291cc425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '454cbaf14e9489adb378a6d896b815b4') in 0.010174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Mace_02.fbx
+  artifactKey: Guid(f889e90018e2a3a4eaebfac0e6ca93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Mace_02.fbx using Guid(f889e90018e2a3a4eaebfac0e6ca93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b667026fa5a591647754700e954b8200') in 0.011482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_14.fbx
+  artifactKey: Guid(b5429712014affe47a7266b8c401a203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_14.fbx using Guid(b5429712014affe47a7266b8c401a203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2494b20f6525d3e87c2aec93b8c2bb7d') in 0.012533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_17.fbx
+  artifactKey: Guid(66a7c54b9b0eb464dbc869dc96a24a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_17.fbx using Guid(66a7c54b9b0eb464dbc869dc96a24a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'da8b2ae35fb311463c86ca61c99f3bf0') in 0.011444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_19.fbx
+  artifactKey: Guid(05e487a0259eb1944a77d685faf69d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_19.fbx using Guid(05e487a0259eb1944a77d685faf69d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a65f1d7bece871a81348f9145ff3e1d7') in 0.009951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Staff_01.fbx
+  artifactKey: Guid(5cfc2ff40784d61458e13d2f8c8ac272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Staff_01.fbx using Guid(5cfc2ff40784d61458e13d2f8c8ac272) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5bb4472deaf20b95d7c4c9e35e318dbc') in 0.010531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_12.fbx
+  artifactKey: Guid(93ab4be3e0b108a47ad38cea4846c158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_12.fbx using Guid(93ab4be3e0b108a47ad38cea4846c158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd037a46ab59c5275a7ba8d416d1e8bac') in 0.012651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_01.fbx
+  artifactKey: Guid(a29e10a78af23e243949a44795e2787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_01.fbx using Guid(a29e10a78af23e243949a44795e2787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '479c35b74277aa2a83620218ce3c8369') in 0.011918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_11.fbx
+  artifactKey: Guid(c8a28847fa1bac444b90e3bf7cd28455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_11.fbx using Guid(c8a28847fa1bac444b90e3bf7cd28455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6168bcd83686e3e2313132e41ad2f6f7') in 0.011387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_10.fbx
+  artifactKey: Guid(2deaa2618417fe846b9d4b1edafa2f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_10.fbx using Guid(2deaa2618417fe846b9d4b1edafa2f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a669f1babb8362ca58236c6fe62d981') in 0.011041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_06.fbx
+  artifactKey: Guid(60b405e810434844ea52ad66ded4e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_06.fbx using Guid(60b405e810434844ea52ad66ded4e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7a13f003513128d6a3eeaa989270432') in 0.010026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_04.fbx
+  artifactKey: Guid(874bd689a0217a649b94da186c743db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_04.fbx using Guid(874bd689a0217a649b94da186c743db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ee0f80c4744fd99b92eb3a2fc831d50') in 0.012628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_15.fbx
+  artifactKey: Guid(e6332795e236ba44894b9ed042dbcceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_15.fbx using Guid(e6332795e236ba44894b9ed042dbcceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e09e3708d60a9e44f5002ff8d042a80e') in 0.011168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_01.fbx
+  artifactKey: Guid(365e3ba86b8292d46b9a6b12079f59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_01.fbx using Guid(365e3ba86b8292d46b9a6b12079f59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5e2b39d74674c0b62eb4294aa453e3e6') in 0.012641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_15.fbx
+  artifactKey: Guid(31315256bdb49584f9210d201c12f0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_15.fbx using Guid(31315256bdb49584f9210d201c12f0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '75a66f9bac9b31aed6c82894385a15a4') in 0.014452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Joust_02.fbx
+  artifactKey: Guid(dafbcf0c6980e124184c131e63401e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Joust_02.fbx using Guid(dafbcf0c6980e124184c131e63401e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef735a554abc5be00501c9e3c1d8df97') in 0.016238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_07.fbx
+  artifactKey: Guid(8d82ffd56d752de4f9673e8df14420dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_07.fbx using Guid(8d82ffd56d752de4f9673e8df14420dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '74266de61f5d3a71b1dda7c703feec95') in 0.014451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Joust_01.fbx
+  artifactKey: Guid(64f8891d0014a2f48a8498712c7b8733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Joust_01.fbx using Guid(64f8891d0014a2f48a8498712c7b8733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b335bb1d851145efbe89785a2ea5a9a2') in 0.020384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Cover_01.fbx
+  artifactKey: Guid(ba40743ca670f72428e421682f20efec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Cover_01.fbx using Guid(ba40743ca670f72428e421682f20efec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29fd695dd21810bcb477982421532ee0') in 0.014963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_03.fbx
+  artifactKey: Guid(e2e67123f907b25418c1a228c35d1796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_03.fbx using Guid(e2e67123f907b25418c1a228c35d1796) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a87439cb270467a06e21370f9fd73ae5') in 0.013975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_08.fbx
+  artifactKey: Guid(8f9537024a39a8243955ba1d15e39a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_08.fbx using Guid(8f9537024a39a8243955ba1d15e39a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e22bc49ed77d05fb1d79712d47e5760') in 0.014123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Rapier_01.fbx
+  artifactKey: Guid(48566ab8be1103144a10cbb53a45a4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Rapier_01.fbx using Guid(48566ab8be1103144a10cbb53a45a4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '883032c45f6c9d15a5bed30a39fecdf1') in 0.012504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_05.fbx
+  artifactKey: Guid(cd86d5e4ab0859d4d8654e41f41531ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_05.fbx using Guid(cd86d5e4ab0859d4d8654e41f41531ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7579c11bedc105084aaf5301736a3718') in 0.011343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_20.fbx
+  artifactKey: Guid(81073371098f24649a1179a71c40e1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_20.fbx using Guid(81073371098f24649a1179a71c40e1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2bb13444c69c6001b0c89cfb2abfbd31') in 0.012416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_13.fbx
+  artifactKey: Guid(1c6cb8761d924d5459005cdc07048064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_13.fbx using Guid(1c6cb8761d924d5459005cdc07048064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76de72a7e1d77c5b3ac07f1bebf9ae54') in 0.012568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_13.fbx
+  artifactKey: Guid(3d33e0bde47c43e4bb3bddf74ee7c4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_13.fbx using Guid(3d33e0bde47c43e4bb3bddf74ee7c4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd76d0d194891698dbf557d8a88532eba') in 0.011994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_07.fbx
+  artifactKey: Guid(5dae7f787e0347d479a9c3c734744db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_07.fbx using Guid(5dae7f787e0347d479a9c3c734744db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe679e3d480adbf51f24158338ca9d52') in 0.015287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_11.fbx
+  artifactKey: Guid(a7a0f18a404bfcd4dbc77f4048d1a79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_11.fbx using Guid(a7a0f18a404bfcd4dbc77f4048d1a79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16a67ba475b68cbb073d8063e043ed63') in 0.012904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_14.fbx
+  artifactKey: Guid(c475b4234c3dc794da8e77ec6a1de9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_14.fbx using Guid(c475b4234c3dc794da8e77ec6a1de9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d9265ae30c01ad86a28762ddbf41e33') in 0.013097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Dagger_01.fbx
+  artifactKey: Guid(deea9fa6c4adefd448af3d5cdb9ae322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Dagger_01.fbx using Guid(deea9fa6c4adefd448af3d5cdb9ae322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '669c0cfddb29da3f6c9344ab2b322e34') in 0.011948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_09.fbx
+  artifactKey: Guid(b0c079f74a46cbd43945967f83fce6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_09.fbx using Guid(b0c079f74a46cbd43945967f83fce6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '566aebd0042e6fea58e8fe8a105e9074') in 0.012519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_16.fbx
+  artifactKey: Guid(629ecdf9e856a7f448f877df0a54010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_16.fbx using Guid(629ecdf9e856a7f448f877df0a54010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce4d67d9689a9e8fd3f3a70cea7bc1bd') in 0.013790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_18.fbx
+  artifactKey: Guid(7b2e6823feb07824f8d81ec6aef543f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_18.fbx using Guid(7b2e6823feb07824f8d81ec6aef543f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0a92813322c99ef13caf0155f3d0f83') in 0.012088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Buckler_01.fbx
+  artifactKey: Guid(0c4b6a436cb9e3b46831c1920c6bf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Buckler_01.fbx using Guid(0c4b6a436cb9e3b46831c1920c6bf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b18b9ac079a171cd53183e853053e792') in 0.012552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Mace_01.fbx
+  artifactKey: Guid(bd41423b5a4d9dc4d9254b94df82aa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Mace_01.fbx using Guid(bd41423b5a4d9dc4d9254b94df82aa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba98047cd23417d21d06e404cd505097') in 0.012693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Small_Cover_01.fbx
+  artifactKey: Guid(f27bf172a5b3c624cb1156921212d2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Sword_Small_Cover_01.fbx using Guid(f27bf172a5b3c624cb1156921212d2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e5f08340dc25d8ac62d6befe02723f9') in 0.012178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_08.fbx
+  artifactKey: Guid(45879daf95f74294f9c53491f01fdd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_08.fbx using Guid(45879daf95f74294f9c53491f01fdd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8a22f12214a760bb02cb8d60362f105') in 0.013038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_12.fbx
+  artifactKey: Guid(37c5cfc6c12cbc14996c5936c1fd8708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_12.fbx using Guid(37c5cfc6c12cbc14996c5936c1fd8708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '067fbd9d86ee8c6e1576beb2622738cb') in 0.012296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_02.fbx
+  artifactKey: Guid(ba05aa47f5b10aa4786a746d6f2203c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Shield_Long_02.fbx using Guid(ba05aa47f5b10aa4786a746d6f2203c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ca45e81df1f2ac4bc92ab84bbb6e9fe') in 0.013353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
