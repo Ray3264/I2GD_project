@@ -45,8 +45,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.56f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Shooter\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Enemy\WanderingAI.cs" />
     <Compile Include="Assets\Scripts\ConsoleController.cs" />
-    <Compile Include="Assets\Scripts\ProjectileShooter.cs" />
     <Compile Include="Assets\Scripts\DoorOpenDevice.cs" />
     <Compile Include="Assets\UI\HealthUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
@@ -56,14 +57,14 @@
     <Compile Include="Assets\Scripts\ReactiveTarget.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\PlayerAnxiety.cs" />
     <Compile Include="Assets\Scripts\WhisperEffect.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Scripts\Shooter\ProjectileShooter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Shooter\RayShooter.cs" />
     <Compile Include="Assets\Scripts\JumpPad.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -76,22 +77,25 @@
     <Compile Include="Assets\Scripts\Managers\SoundMixerManager.cs" />
     <Compile Include="Assets\Scripts\MouseLookY.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\Shooter\Weapon.cs" />
     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
+    <Compile Include="Assets\Scripts\Shooter\Bullet.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\MouseLookX.cs" />
     <Compile Include="Assets\PSXShaderKit\Demo\PSXExample_CameraMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\Scripts\UIController.cs" />
+    <Compile Include="Assets\Scripts\Shooter\Fireball.cs" />
+    <Compile Include="Assets\Scripts\Enemy\ShadowAI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\HallucinationEffect.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\UI\QTE\QTESystem.cs" />
     <Compile Include="Assets\Scripts\DeviceOperator.cs" />
-    <Compile Include="Assets\Scripts\ShadowAI.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -99,6 +103,7 @@
     <Compile Include="Assets\Scripts\SphereMovement.cs" />
     <Compile Include="Assets\Scripts\HorizontalRotation.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\UI\SettingsPopup.cs" />
     <Compile Include="Assets\PSXShaderKit\Scripts\PSXPostProcessEffect.cs" />
     <Compile Include="Assets\Scripts\FountainController.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
@@ -113,12 +118,9 @@
     <Compile Include="Assets\Scripts\Managers\SoundFXManager.cs" />
     <Compile Include="Assets\Scripts\FPSInput.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Scripts\RayShooter.cs" />
-    <Compile Include="Assets\Scripts\WanderingAI.cs" />
-    <Compile Include="Assets\Scripts\Fireball.cs" />
+    <Compile Include="Assets\Scripts\UI\UIController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\PSXShaderKit\Demo\SpookyOrbFloat.cs" />
-    <Compile Include="Assets\Scripts\SettingsPopup.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\PSXShaderKit\Shaders\PSX-VertexLitTransparentCutout.shader" />
