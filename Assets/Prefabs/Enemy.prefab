@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 100
+  deathEffectPrefab: {fileID: 1759077257169779617, guid: 009db78f99b3436419d4cf887805f573, type: 3}
 --- !u!1 &4104632638342133734
 GameObject:
   m_ObjectHideFlags: 0

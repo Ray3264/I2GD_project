@@ -3,18 +3,18 @@ using UnityEngine;
 
 public class UIController : MonoBehaviour
 {
-    [SerializeField] TMP_Text scoreLabel;
-    [SerializeField] TMP_Text pauseText;
-    [SerializeField] SettingsPopup settingsPopup;
+    //[SerializeField] TMP_Text scoreLabel;
+    //[SerializeField] TMP_Text pauseText;
+    //[SerializeField] SettingsPopup settingsPopup;
+    [SerializeField] GameObject pauseMenu;
     private int score;
-    private bool isPaused = false;
+    private bool isPaused;
     
     [SerializeField] MouseLookY playerLookY; 
     [SerializeField] MouseLookX playerLookX; 
-    [SerializeField] RayShooter playerShooting; 
+    [SerializeField] Weapon playerShooting; 
     
     public AudioClip clickSound;
-    
 
     public void PlaySound()
     {
@@ -31,26 +31,20 @@ public class UIController : MonoBehaviour
     // }
     void Start()
     {
-        score = 0;
-        scoreLabel.text = score.ToString();
-        settingsPopup.Close();
-        pauseText.gameObject.SetActive(false);
+        //scoreLabel.text = score.ToString();
+        pauseMenu.SetActive(false);
+        //settingsPopup.Close();
+        //pauseText.gameObject.SetActive(false);
     }
-
-
-    private void OnEnemyHit()
-    {
-        score += 1;
-        scoreLabel.text = score.ToString();
-    }
+    
     public void OnOpenSettings()
     {
-        settingsPopup.Open();
+        pauseMenu.SetActive(true);
         PauseGame();
     }
     public void OnCloseSettings()
     {
-        settingsPopup.Close();
+        pauseMenu.SetActive(false);
         ResumeGame();
     }
     void PauseGame()
@@ -64,7 +58,7 @@ public class UIController : MonoBehaviour
         playerLookY.enabled = false;
         playerShooting.enabled = false;
         
-        pauseText.gameObject.SetActive(true);
+        //pauseText.gameObject.SetActive(true);
         
         //AudioListener.pause = true;
     }
@@ -80,19 +74,24 @@ public class UIController : MonoBehaviour
         playerLookY.enabled = true;
         playerShooting.enabled = true;
         
-        pauseText.gameObject.SetActive(false);
+        //pauseText.gameObject.SetActive(false);
         
         //AudioListener.pause = false;
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !isPaused)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            PauseGame();
-        }
-        else if(Input.GetKeyDown(KeyCode.Escape) && isPaused)
-        {
-            OnCloseSettings();
+            if (isPaused)
+            {
+                OnCloseSettings();
+                //ResumeGame();                
+            }
+            else
+            {
+                OnOpenSettings();
+                //PauseGame();
+            }
         }
     }
 

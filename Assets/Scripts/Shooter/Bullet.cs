@@ -10,7 +10,8 @@ public class Bullet : MonoBehaviour
         {
             other.gameObject.GetComponent<Enemy>().updateHealth(-100);
             // print("hit " + other.gameObject.name + " !");
-            // Destroy(gameObject);
+            Destroy(gameObject);
         }
+        // Destroy(gameObject);
     }
 }
