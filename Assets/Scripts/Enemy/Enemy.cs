@@ -1,6 +1,7 @@
     using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Enemy : MonoBehaviour
 {
@@ -20,7 +21,9 @@ public class Enemy : MonoBehaviour
     }
     public void Die()
     {
-        Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
+        Vector3 position = transform.position;
+        position.y = transform.position.y + 1.35f;
+        Instantiate(deathEffectPrefab, position, Quaternion.Euler(-90f, 0f, 0f), null);
         Destroy(gameObject);
     }
 }
