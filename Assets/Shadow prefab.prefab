@@ -2615,6 +2615,7 @@ GameObject:
   - component: {fileID: 7198398719537534902}
   - component: {fileID: -3588746812416451187}
   - component: {fileID: 119556343495584057}
+  - component: {fileID: 8654338590611205230}
   m_Layer: 0
   m_Name: Shadow prefab
   m_TagString: Enemy
@@ -2630,7 +2631,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332634368092109280}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.037969, y: 0.5, z: -2.599359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2738,7 +2739,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 100
-  deathEffectPrefab: {fileID: 1759077257169779617, guid: 009db78f99b3436419d4cf887805f573, type: 3}
+  deathEffectPrefab: {fileID: 3399763398783220259, guid: da4d3e62d769eb849aa81e813aa15173, type: 3}
+--- !u!114 &8654338590611205230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332634368092109280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec056d6dacd168343841d82431fdce46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  detectionRange: 10
+  rotationSpeed: 100
 --- !u!1 &337325162822400063
 GameObject:
   m_ObjectHideFlags: 0
