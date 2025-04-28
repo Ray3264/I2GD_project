@@ -166,6 +166,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
     <None Include="Assets\Packages\PSXShaderKit\Shaders\PSX-Lite-Unlit.shader" />
+    <None Include="Assets\Packages\LowPolyWeapons\Scene\README.txt" />
     <None Include="Assets\Packages\PSXShaderKit\Shaders\PSX-Lite-VertexLitTransparent.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />

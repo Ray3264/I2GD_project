@@ -24,6 +24,8 @@ public class Weapon : MonoBehaviour
     public Transform bulletSpawn;
     public float bulletVelocity = 30;
     public float bulletLifeTime = 3f; // seconds
+    
+    private Animator animator;
 
     public enum ShootingMode
     {
@@ -38,6 +40,7 @@ public class Weapon : MonoBehaviour
     {
         readyToShoot = true;
         burstBulletsLeft = bulletsPerBurst;
+        animator = GetComponent<Animator>();
     }
 
     void Start()
@@ -73,6 +76,8 @@ public class Weapon : MonoBehaviour
 
     private void FireWeapon()
     {
+        animator.SetTrigger("RECOIL");
+        
         readyToShoot = false;
         
         Vector3 shootingDirection = CalculateDirectionAndSpread().normalized;
@@ -140,5 +145,13 @@ public class Weapon : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         Destroy(bullet);
+    }
+    
+    private void OnGUI()
+    {
+        int size = 12;
+        float posX = cam.pixelWidth / 2 - size / 4;
+        float posY = cam.pixelHeight / 2 - size / 2;
+        GUI.Label(new Rect(posX, posY, size, size), "*");
     }
 }

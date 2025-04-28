@@ -12,6 +12,6 @@ public class Bullet : MonoBehaviour
             // print("hit " + other.gameObject.name + " !");
             Destroy(gameObject);
         }
-        // Destroy(gameObject);
+        Destroy(gameObject);
     }
 }
