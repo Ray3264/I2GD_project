@@ -74,4 +74,5 @@ public class PlayerAnxiety : MonoBehaviour
         isHallucinating = false;
         Debug.Log("Hallucinations stopped!");
     }
+    
 }

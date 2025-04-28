@@ -75,7 +75,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\Scripts\Managers\SoundMixerManager.cs" />
     <Compile Include="Assets\Scripts\MouseLookY.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Shooter\Weapon.cs" />
@@ -116,7 +115,8 @@
     <Compile Include="Assets\Packages\PSXShaderKit\Demo\PSXExample_CameraMovement.cs" />
     <Compile Include="Assets\Packages\PSXShaderKit\Scripts\PSXShaderManager.cs" />
     <Compile Include="Assets\Scenes\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\Managers\SoundFXManager.cs" />
+    <Compile Include="Assets\Sound\SoundFXManager.cs" />
+    <Compile Include="Assets\Sound\SoundMixerManager.cs" />
     <Compile Include="Assets\Scripts\FPSInput.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\UI\UIController.cs" />
