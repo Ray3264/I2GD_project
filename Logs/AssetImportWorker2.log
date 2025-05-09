@@ -302,3 +302,12 @@ Start importing Assets/tiny-frog/textures/frog_diffuse.png using Guid(5e75da404e
  -> (artifact id: '535e6e9678718c5574b8cfd5b5bf1376') in 0.124484 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 524.529122 seconds.
+  path: Assets/Scenes/Level_1.unity
+  artifactKey: Guid(95e14c5bcc0af5f4abb23d426e2d245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_1.unity using Guid(95e14c5bcc0af5f4abb23d426e2d245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b52185c1c8acb106b27962c14ca46057') in 0.007062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
