@@ -12,6 +12,7 @@ public class UIController : MonoBehaviour
     [SerializeField] MouseLookX playerLookX; 
     [SerializeField] Weapon playerShooting; 
     
+    [SerializeField] QTESystem qteSystem;
     public AudioClip clickSound;
 
     public void PlaySound()
@@ -46,6 +47,8 @@ public class UIController : MonoBehaviour
             playerLookX.enabled = false;
             playerLookY.enabled = false;
             playerShooting.enabled = false;
+            qteSystem.enabled = false;
+            qteSystem.qteUI.SetActive(false);
         }
     }
     
@@ -61,6 +64,7 @@ public class UIController : MonoBehaviour
             playerLookX.enabled = true;
             playerLookY.enabled = true;
             playerShooting.enabled = true;
+            qteSystem.enabled = true;
         }
 
     }

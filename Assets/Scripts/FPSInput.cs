@@ -30,16 +30,7 @@ public class FPSInput : MonoBehaviour
         Vector3 movement = new Vector3(deltaX, 0, deltaZ);
         movement = Vector3.ClampMagnitude(movement, moveSpeed);
         
-        // Прыжок
-        if (charController.isGrounded)
-        {
-            movementVert.y /= 3;
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                movementVert.y = jumpForce;
-            }
-        }
-        else
+        if (!charController.isGrounded)
         {
             movementVert.y += gravity * dt;  
         }
