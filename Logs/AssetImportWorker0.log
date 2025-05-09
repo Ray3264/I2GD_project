@@ -262,3 +262,8 @@ Start importing Assets/tiny-frog/source/little_frog/tex/frog_rough.png using Gui
  -> (artifact id: 'f576593d187ced64125191a0546be595') in 0.137665 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
