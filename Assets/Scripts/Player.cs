@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
+
 public class Player : MonoBehaviour
 {
     public Vector3 Position { get; set; }
@@ -18,8 +19,11 @@ public class Player : MonoBehaviour
             Health = 0;
             isAlive = false;
             Debug.Log("Player died");
+            
         }
     }
+    
+
     void Start()
     {
         timer = 0f;
