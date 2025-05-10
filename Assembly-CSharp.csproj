@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\ReactiveTarget.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Scripts\FightZone\FightZone.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\PlayerAnxiety.cs" />
     <Compile Include="Assets\Scripts\WhisperEffect.cs" />
@@ -170,6 +171,7 @@
     <Compile Include="Assets\Packages\PSXShaderKit\Scripts\PSXShaderManager.cs" />
     <Compile Include="Assets\Scenes\MainMenu.cs" />
     <Compile Include="Assets\Sound\SoundFXManager.cs" />
+    <Compile Include="Assets\Scripts\FightZone\FightZoneGizmos.cs" />
     <Compile Include="Assets\Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Assets\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
     <Compile Include="Assets\Assets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />

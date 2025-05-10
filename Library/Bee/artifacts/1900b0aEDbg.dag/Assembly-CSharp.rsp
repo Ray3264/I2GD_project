@@ -417,6 +417,8 @@
 "Assets/Scripts/Enemy/ShadowAI.cs"
 "Assets/Scripts/Enemy/WanderingAI.cs"
 "Assets/Scripts/FanController.cs"
+"Assets/Scripts/FightZone/FightZone.cs"
+"Assets/Scripts/FightZone/FightZoneGizmos.cs"
 "Assets/Scripts/FountainController.cs"
 "Assets/Scripts/FPSInput.cs"
 "Assets/Scripts/HallucinationEffect.cs"
