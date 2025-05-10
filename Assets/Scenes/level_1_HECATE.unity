@@ -4284,6 +4284,7 @@ GameObject:
   - component: {fileID: 1932145742}
   - component: {fileID: 1932145741}
   - component: {fileID: 1932145740}
+  - component: {fileID: 1932145746}
   m_Layer: 0
   m_Name: FightZone
   m_TagString: Untagged
@@ -4403,6 +4404,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1932145746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932145739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ab46068b42f5043944c2f76ad3f49f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesToKill: 10
 --- !u!1001 &2045751925
 PrefabInstance:
   m_ObjectHideFlags: 0

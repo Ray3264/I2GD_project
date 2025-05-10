@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/MainMenu.unity
-=======
-- path: Assets/Scenes/level_2_HECATE.unity
->>>>>>> fe7b94bc9a5d6cf426b3944aa9110d7959f82b9c
+- path: Assets/Scenes/level_1_HECATE.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/level_1_HECATE.unity
     guid: 1a3353b01c3d2644e95b8a98fe48d318
   - enabled: 1
+    path: Assets/Scenes/level_2_HECATE.unity
+    guid: d6859eb774d956f4dbe7658514f850d5
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

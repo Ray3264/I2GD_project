@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private int _health = 100;
     [SerializeField] private GameObject deathEffectPrefab;
+    public static System.Action OnEnemyDeath;
 
     public void updateHealth(int delta)
     {
@@ -24,6 +25,7 @@ public class Enemy : MonoBehaviour
         Vector3 position = transform.position;
         position.y = transform.position.y + 1.35f;
         Instantiate(deathEffectPrefab, position, Quaternion.Euler(-90f, 0f, 0f), null);
+        OnEnemyDeath?.Invoke();
         Destroy(gameObject);
     }
 }

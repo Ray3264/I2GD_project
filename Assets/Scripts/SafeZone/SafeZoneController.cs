@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SafeZoneController : MonoBehaviour
 {
-    public float anxietyDecreaseRate = 5f;
+    public float anxietyDecreaseRate = 15f;
     public float anxietyIncreaseRate = 10f;
 
     private int playerInZoneCount = 0;
