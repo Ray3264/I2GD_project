@@ -84,6 +84,7 @@
     <Compile Include="Assets\Assets\Standard Assets\Utility\SmoothFollow.cs" />
     <Compile Include="Assets\Scripts\Shooter\RayShooter.cs" />
     <Compile Include="Assets\Scripts\JumpPad.cs" />
+    <Compile Include="Assets\Scenes\RandomEnemySpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scripts\SafeZone\SafeZoneController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

@@ -413,6 +413,7 @@
 "Assets/Packages/PSXShaderKit/Scripts/PSXPostProcessEffect.cs"
 "Assets/Packages/PSXShaderKit/Scripts/PSXShaderManager.cs"
 "Assets/Scenes/MainMenu.cs"
+"Assets/Scenes/RandomEnemySpawner.cs"
 "Assets/Scripts/AltarZone.cs"
 "Assets/Scripts/ConsoleController.cs"
 "Assets/Scripts/DeviceOperator.cs"
