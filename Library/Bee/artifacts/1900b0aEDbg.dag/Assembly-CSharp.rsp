@@ -430,6 +430,8 @@
 "Assets/Scripts/PlayerCharacter.cs"
 "Assets/Scripts/QTE/QTESystem.cs"
 "Assets/Scripts/ReactiveTarget.cs"
+"Assets/Scripts/SafeZone/SafeZone.cs"
+"Assets/Scripts/SafeZone/SafeZoneGizmos.cs"
 "Assets/Scripts/SceneController.cs"
 "Assets/Scripts/Shooter/Bullet.cs"
 "Assets/Scripts/Shooter/Fireball.cs"
