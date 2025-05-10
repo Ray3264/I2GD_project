@@ -24,6 +24,11 @@ public class AdvancedShooterAI : MonoBehaviour
     private float waypointReachedTime;
     private bool isPlayerVisible;
     private Vector3 lastKnownPlayerPosition;
+    
+    [Header("Chase Settings")]
+    public float chaseDuration = 5f; // Время преследования после потери игрока
+    private float lastSeenTime;
+    private bool isChasingLastKnownPosition;
 
     void Start()
     {
@@ -51,10 +56,32 @@ public class AdvancedShooterAI : MonoBehaviour
         if (isPlayerVisible)
         {
             EngagePlayer();
+            lastSeenTime = Time.time;
+            isChasingLastKnownPosition = true;
+        }
+        else if (isChasingLastKnownPosition && Time.time - lastSeenTime < chaseDuration)
+        {
+            // Продолжаем преследовать последнюю известную позицию
+            ChaseLastKnownPosition();
         }
         else if (Time.time - waypointReachedTime > waypointWaitTime)
         {
+            isChasingLastKnownPosition = false;
             Patrol();
+        }
+    }
+    
+    void ChaseLastKnownPosition()
+    {
+        agent.isStopped = false;
+        agent.speed = chaseSpeed;
+        agent.SetDestination(lastKnownPlayerPosition);
+        
+        // Если достигли последней позиции, прекращаем преследование
+        if (agent.remainingDistance <= agent.stoppingDistance)
+        {
+            isChasingLastKnownPosition = false;
+            waypointReachedTime = Time.time;
         }
     }
 
