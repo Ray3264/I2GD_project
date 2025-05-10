@@ -1,22 +1,25 @@
 using UnityEngine;
 
 [ExecuteAlways]
-public class SafeZoneGizmos : MonoBehaviour
+public class SafeZoneGizmo : MonoBehaviour
 {
     private void OnDrawGizmos()
     {
-        if (Application.isPlaying) return; // Не рисовать во время игры
-
-        Gizmos.color = Color.green;
-
-        BoxCollider collider = GetComponent<BoxCollider>();
-        if (collider != null)
+#if UNITY_EDITOR
+        if (!Application.isPlaying) 
         {
-            Vector3 scaledSize = Vector3.Scale(collider.size, transform.localScale);
-            Vector3 worldCenter = transform.position + transform.rotation * Vector3.Scale(collider.center, transform.localScale);
-            Gizmos.DrawWireCube(worldCenter, scaledSize);
+            BoxCollider collider = GetComponent<BoxCollider>();
+            if (collider != null)
+            {
+                Gizmos.color = Color.green;
+                Matrix4x4 oldMatrix = Gizmos.matrix;
+                Gizmos.matrix = Matrix4x4.TRS(transform.position, transform.rotation, transform.lossyScale);
+
+                Gizmos.DrawWireCube(collider.center, collider.size);
+
+                Gizmos.matrix = oldMatrix;
+            }
         }
+#endif
     }
 }
-
-

@@ -103,6 +103,7 @@
     <Compile Include="Assets\Scripts\Shooter\RayShooter.cs" />
     <Compile Include="Assets\Scripts\JumpPad.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\SafeZone\SafeZoneController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Assets\Standard Assets\Utility\CurveControlledBob.cs" />
     <Compile Include="Assets\Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
@@ -139,6 +140,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\DeviceOperator.cs" />
+    <Compile Include="Assets\Scripts\SafeZone\SafeZoneChild.cs" />
     <Compile Include="Assets\Assets\Standard Assets\Utility\AlphaButtonClickMask.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
@@ -190,7 +192,6 @@
     <Compile Include="Assets\Assets\Standard Assets\Utility\ActivateTrigger.cs" />
     <Compile Include="Assets\Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\Scripts\SafeZone\SafeZone.cs" />
     <Compile Include="Assets\Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
   </ItemGroup>
   <ItemGroup>
