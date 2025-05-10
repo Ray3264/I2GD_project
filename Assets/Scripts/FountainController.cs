@@ -19,4 +19,11 @@ public class FountainController : MonoBehaviour
             fountainParticles.Stop();
         }
     }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            PlayerAnxiety.Instance.ReduceAnxiety(5 * Time.deltaTime);
+        }
+    }
 }
